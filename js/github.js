@@ -11,11 +11,8 @@
   const USER = 'arugoa';
   const PINNED = [
     'TR-mbed',
-    'drone',
-    'Ground-Control',
-    'latent-safety-sdf',
     '1-Lipschitz-Neural-Distance-Fields',
-    'TR-Autonomy-2',
+    'drone',
   ];
   const langColor = { JavaScript:'#f1e05a', TypeScript:'#3178c6', Python:'#3572A5', 'C++':'#f34b7d',
     C:'#555555', Java:'#b07219', HTML:'#e34c26', CSS:'#563d7c', CUDA:'#3A4E3A', 'C#':'#178600',
