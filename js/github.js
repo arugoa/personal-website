@@ -10,8 +10,8 @@
   if (!grid) return;
   const USER = 'arugoa';
   const PINNED = [
+    'cad-to-urdf',
     'TR-mbed',
-    '1-Lipschitz-Neural-Distance-Fields',
     'drone',
   ];
   const langColor = { JavaScript:'#f1e05a', TypeScript:'#3178c6', Python:'#3572A5', 'C++':'#f34b7d',

@@ -135,15 +135,28 @@
 
     <p class="proj-lead">Research &amp; Robotics</p>
     <div class="proj-grid" style="margin-bottom:44px;">
-      <div class="card feature">
-        <span class="tag">Triton Robotics · Embedded Lead</span>
+      <a class="card" href="https://github.com/arugoa/cad-to-urdf" target="_blank" rel="noopener">
+        <span class="tag">Oct 2026 · Personal project</span>
+        <h3>CAD2Sim: CAD-to-simulation compiler</h3>
+        <p>
+          A deterministic Python compiler that turns Onshape, SolidWorks, Fusion, Creo, and STEP
+          robot assemblies into URDF/SRDF, MJCF, and USD assets for MuJoCo, Isaac Lab, and Gazebo.
+          Includes geometric joint inference, collision mesh decomposition, sampled self-collision
+          matrices, and an agent workflow that inspects, tests, and refines generated assets.
+        </p>
+        <div class="stack"><span>Python</span><span>URDF / SRDF</span><span>MJCF</span><span>USD</span><span>MuJoCo</span><span>Isaac Lab</span></div>
+        <span class="open">View on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <div class="card">
+        <span class="tag">Triton Robotics · Embedded Systems Lead</span>
         <h3>Autonomous embedded stack &amp; LiDAR navigation</h3>
         <p>
-          Refactored the embedded codebase for a 10× performance gain with CI/CD, autotuned
-          motor PID in simulation, and brought up autonomous navigation using Point-LIO with a
-          4D LiDAR, plus drivers for IMU and SPI, CAN, and UART.
+          Led a 10–15 person embedded team, cutting 170° yaw settling time from 1.2 s to under
+          400 ms via system identification and PID autotuning. Wrote STM32 firmware over I2C, SPI,
+          CAN, and UART, and brought up Point-LIO LiDAR-inertial odometry in a ROS2 stack with
+          EKF pose prediction and vector-field navigation.
         </p>
-        <div class="stack"><span>C++</span><span>Point-LIO</span><span>4D LiDAR</span><span>RTOS</span><span>CI/CD</span></div>
+        <div class="stack"><span>C++</span><span>STM32</span><span>Point-LIO</span><span>ROS2</span><span>EKF</span></div>
       </div>
       <div class="card">
         <span class="tag">Existential Robotics Lab</span>
